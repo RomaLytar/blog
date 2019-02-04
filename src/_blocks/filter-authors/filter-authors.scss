@@ -1,0 +1,134 @@
+.filter-authors {
+  margin: 0 0 80px;
+
+}
+
+.filter-authors__list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.filter-authors__item {
+  font-size: 14;
+  line-height: 1.43;
+  position: relative;
+  margin: 0 35px;
+  color: $col;
+
+  &[data-hidden] {
+    display: none;
+  }
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.filter-authors__item-link {
+  color: inherit;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: $gold;
+  }
+}
+
+.filter-authors__name {
+  border: 0;
+  text-decoration: underline;
+  border-radius: 0;
+  width: auto;
+  background: none;
+  text-align: left;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: color 0.3s;
+  outline: none;
+
+  [data-active] & {
+    text-decoration: none;
+    color: $gold;
+  }
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: $gold;
+
+    svg {
+      fill: $gold;
+    }
+  }
+
+  svg {
+    transform: rotate(90deg);
+    transform-origin: 50% 50%;
+    transition: transform 0.3s, fill 0.3s;
+    margin-left: auto;
+
+    [data-active] & {
+      transform: rotate(270deg);
+      fill: $gold;
+    }
+  }
+
+  span {
+    margin-right: 20px;
+  }
+}
+
+.filter-authors__item-list {
+  font-size: 16px;
+  line-height: 1.38;
+  border-top: 2px solid $gold;
+  margin: -2px 0 0;
+  padding: 35px 20px;
+  list-style: none;
+  display: none;
+  position: absolute;
+  z-index: 100;
+  top: 100%;
+  left: -20px;
+  max-height: 400px;
+  min-height: 260px;
+  overflow: auto;
+  background: #ffffff;
+  transition: color 0.3s;
+  min-width: 320px;
+
+  li {
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+
+    &[data-active],
+    &:hover,
+    &:active,
+    &:focus {
+      color: $gold;
+    }
+  }
+
+  [data-active] & {
+    display: block;
+  }
+}
+

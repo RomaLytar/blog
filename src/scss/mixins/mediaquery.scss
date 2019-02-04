@@ -1,0 +1,21 @@
+$d-xxx-m: "(min-width: 1601px)";
+$d-xx-m: "(min-width: 1441px)";
+$d-x-m: "(min-width: 1201px)";
+$d-m: "(min-width: 1025px)";
+$t-m: "(min-width: 768px)";
+$m480-m: "(min-width: 481px)";
+
+// Desktop first
+$d-xxx: "(max-width: 1600px)";
+$d-xx: "(max-width: 1440px)";
+$d-x: "(max-width: 1200px)";
+$t: "(max-width: 1024px)";
+$s: "(max-width: 767px)";
+$m480: "(max-width: 480px)";
+
+// Help variables
+$p: "(orientation: portrait)";
+$l: "(orientation: landscape)";
+$dppx: "(min-resolution: 1.5dppx)";
+$dpi: "(min-resolution: 144dpi)";
+$retina: $dppx, $dpi;

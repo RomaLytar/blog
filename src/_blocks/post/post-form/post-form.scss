@@ -1,0 +1,35 @@
+.post-form {
+  margin: 0 0 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.post-form__title {
+  @include title-section();
+}
+
+.post-form__autorizate-link {
+  color: $col;
+  margin: 0 0 20px;
+
+  &:hover {
+    color: $gold;
+  }
+}
+
+.post-form__form {
+  width: 100%;
+
+  textarea {
+    border: 1px solid #cfcfcf;
+    width: 100%;
+    border-radius: 0;
+    resize: none;
+    max-height: 95px;
+    margin-bottom: 40px;
+  }
+}
+
+

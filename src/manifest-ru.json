@@ -1,0 +1,20 @@
+{
+  "name": "CXID OPERA",
+  "short_name": "CXID OPERA",
+  "description": "Харківський національний академічний театр опери та балету ім. М.В. Лисенка",
+  "lang": "ru",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "orientation": "any",
+  "theme_color": "#e38523",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg"
+    }
+  ]
+}

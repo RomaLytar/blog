@@ -1,0 +1,10 @@
+.articles-all {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 80px;
+}
+
+.articles-all__title {
+  @include title-section();
+}
+

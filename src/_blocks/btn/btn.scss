@@ -1,0 +1,61 @@
+.btn {
+  font-size: 12px;
+  line-height: 1.33;
+  padding: 10px 35px;
+  width: auto;
+  background: #bd9128;
+  border: none;
+  border-radius: 0;
+  text-transform: uppercase;
+  color: $white;
+  outline: none;
+
+  &:hover {
+    background: darken(#bd9128, 5%)
+  }
+
+  &:active {
+    background: darken(#bd9128, 15%)
+  }
+
+  &--red {
+    background: $red;
+
+    &:hover {
+    background: darken($red, 5%)
+    }
+
+    &:active {
+      background: darken($red, 15%)
+    }
+
+    &:disabled {
+      opacity: 0.5;
+
+      &:hover {
+        background: $red;
+      }
+
+      &:active {
+        background: $red;
+      }
+    }
+  }
+}
+
+.btn-link {
+  font-size: 12px;
+  line-height: 1.67;
+  color: $gold;
+  border: none;
+  padding: 0;
+  border-radius: 0;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+@media #{$s} {
+  .btn {
+
+  }
+}

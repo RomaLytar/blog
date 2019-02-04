@@ -1,0 +1,55 @@
+.share {
+  padding: 20px 0 0;
+  display: flex;
+}
+
+.share__info {
+
+  padding: 0 15px 0 0;
+  position: relative;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.share__btn {
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  color: $col-light;
+  text-decoration: underline;
+  padding: 0;
+  margin: 0 12px 0 0;
+  outline: 0;
+
+  &:hover {
+    color: $gold;
+  }
+}
+
+.share__count {
+  margin: 0;
+
+  .share__btn-active ~ & {
+    visibility: hidden;
+  }
+}
+
+.share__block-wrap {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 100%;
+  overflow: hidden;
+  width: 0;
+  transition: .8s;
+
+  .share__btn-active ~ & {
+    width: 500px;
+  }
+
+}
+
+.share__block {
+  width: 500px;
+}

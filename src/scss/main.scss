@@ -1,0 +1,57 @@
+@import "variables";
+
+@import "mixins/mediaquery";
+@import "mixins/title";
+@import "mixins/wrap";
+@import "mixins/visually-hidden";
+
+@import "global/normalize";
+@import "global/global-scaffolding";
+@import "global/fonts";
+
+
+//main
+@import "../_blocks/main/best/best";
+@import "../_blocks/main/last/last";
+@import "../_blocks/main/popular/popular";
+
+
+//blocks
+@import "../_blocks/main-section/main-section";
+@import "../_blocks/btn/btn";
+@import "../_blocks/header/header";
+@import "../_blocks/menu/menu";
+@import "../_blocks/article/article";
+@import "../_blocks/article/article-middle";
+@import "../_blocks/article/article-small";
+@import "../_blocks/article/article-info";
+@import "../_blocks/articles-all/articles-all";
+@import "../_blocks/articles-author-all/articles-author-all";
+@import "../_blocks/footer/footer";
+@import "../_blocks/slick/slick";
+@import "../_blocks/filter/filter";
+@import "../_blocks/filter-authors/filter-authors";
+@import "../_blocks/pagination/pagination";
+@import "../_blocks/author/author";
+@import "../_blocks/article-author/article-author";
+@import "../_blocks/post/post-form/post-form";
+@import "../_blocks/post/post-comment/post-comment";
+@import "../_blocks/post/comment/comment";
+@import "../_blocks/share/share";
+@import "../_blocks/authors/authors";
+@import "../_blocks/projekt/projekt";
+@import "../_blocks/filter-digests/filter-digests";
+@import "../_blocks/digests/digests";
+@import "../_blocks/contract/contract";
+// @import "../_blocks/scrollbar/scrollbar";
+// @import "../_blocks/map/map";
+@import "../_blocks/form/form";
+@import "../_blocks/popup/popup";
+
+
+@import "../_blocks/404/404";
+
+
+// @import "../_blocks/slick/slick";
+
+

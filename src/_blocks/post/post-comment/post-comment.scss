@@ -1,0 +1,21 @@
+.post-comment {
+  margin: 0 0 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.post-comment__title {
+  @include title-section();
+}
+
+.post-comment__list {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.post-comment__item {
+  padding-left: 15px;
+}

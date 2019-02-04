@@ -1,0 +1,15 @@
+.last {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 80px;
+}
+
+.last__title {
+  @include title-section();
+}
+
+.last__all-link {
+  color: inherit;
+  margin-top: 40px;
+  align-self: center;
+}

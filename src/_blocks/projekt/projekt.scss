@@ -1,0 +1,26 @@
+.projekt__text {
+  margin: 0 auto 25px;
+  max-width: 814px;
+
+  p {
+    margin: 0 0 20px;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+}
+
+
+.projekt__slogan {
+  font-size: 20px;
+  line-height: 1.3;
+  text-align: center;
+  color: $gold;
+  margin: 0 0 40px;
+}
+
+.projekt__slogan-second {
+  color: $col;
+  display: block;
+}

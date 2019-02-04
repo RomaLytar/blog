@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+  font: 14px/1.43 $font-main;
+}
+
+body {
+  color: $col;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: inherit;
+  overflow-x: hidden;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.visually-hidden {
+  @include visually-hidden;
+}
+
+.body-popup {
+  overflow: hidden;
+}
+
+.wrap {
+  @include wrap;
+}
+
+@media #{$t} {
+  body {
+
+  }
+}
+
+@media #{$s} {
+  body {
+
+  }
+}

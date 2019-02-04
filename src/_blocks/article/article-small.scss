@@ -1,0 +1,36 @@
+.article-small {
+  // background: blue;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.article-small__img {
+  width: 21.2%;
+
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+
+.article-small__descr {
+  width: 78.8%;
+  padding-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article-small__text {
+  width: 100%;
+  line-height: 1.29;
+  p {
+    margin: 0;
+  }
+}
+
+.article-small__author {
+  margin: auto 0 0;
+  color: $gold;
+  width: 100%;
+}
